@@ -1,0 +1,31 @@
+{
+  "name": "@ashkiani/mongo-logger",
+  "version": "1.0.0",
+  "description": "Reusable request logger and API key authorizer using MongoDB for Node projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashkiani/mongo-logger.git"
+  },
+  "keywords": [
+    "mongodb",
+    "logger",
+    "api",
+    "authorization",
+    "request-logging",
+    "utility"
+  ],
+  "author": "Siavash Ashkiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashkiani/mongo-logger/issues"
+  },
+  "homepage": "https://github.com/ashkiani/mongo-logger#readme",
+  "dependencies": {
+    "@ashkiani/mongo-client": "^1.0.1",
+    "bcrypt": "^5.1.1"
+  }
+}
