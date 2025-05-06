@@ -12,7 +12,6 @@ This utility provides a structured logging mechanism and optional key-based API 
 
 ## 📦 Installation
 
-```bash
 npm install @ashkiani/mongo-logger
 ````
 
