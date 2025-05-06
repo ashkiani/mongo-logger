@@ -57,10 +57,10 @@ const mongoLogger = require('@ashkiani/mongo-logger');
 
 ## 📘 API
 
-createLogEntryObj(req, dbClient, route)
+### `createLogEntryObj(req, dbClient, route)`
 Creates a structured log object based on the request, origin, API key, and metadata.
 
-writeLogObj(logEntry, dbClient, dbName, colName)
+### `writeLogObj(logEntry, dbClient, dbName, colName)`
 Writes the log object to the given MongoDB database and collection. Automatically scrubs the API key from storage if the user is authorized.
 
 🔐 Keyless Access Behavior
